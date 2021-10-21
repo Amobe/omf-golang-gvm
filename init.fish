@@ -7,4 +7,4 @@
 
 
 set -q GVM_ROOT; or set -gx GVM_ROOT $HOME/.gvm
-fenv source {$GVM_ROOT}/scripts/gvm >/dev/null ^&1
+fenv source {$GVM_ROOT}/scripts/gvm >/dev/null 2>&1
